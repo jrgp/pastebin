@@ -65,9 +65,8 @@ class Layout {
 		</div>
 	</div>
 	<div id="foot">
-		<a href="'.WEB_PATH.'about">About bin6</a> | 
-		<a href="'.WEB_PATH.'contact">Contact Us</a>
-		<br /><span style="color : #aaaaaa">&copy; 2011 PuttyNuts Web Services</span>
+    <a href="https://github.com/jrgp/pastebin/">GitHub</a>
+		<br /><span style="color : #aaaaaa">PasteBin &copy; 2011 PuttyNuts Web Services</span>
 	</div>
 </div>
 	'.($this->autoSelect ? '
