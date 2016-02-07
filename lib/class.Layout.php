@@ -26,21 +26,8 @@ class Layout {
 <head>
 	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
 	<link href="'.WEB_PATH.'theme/styles.css" rel="stylesheet" type="text/css" />
-	<title>\'bin6.It - The IPv6-only Pastebin'.($title ? ' - '.$title : '').'</title>
+	<title>Pastebin'.($title ? ' - '.$title : '').'</title>
 	<script type="text/javascript" src="'.WEB_PATH.'theme/misc.js"></script>
-<script type="text/javascript">
-
-  var _gaq = _gaq || [];
-  _gaq.push([\'_setAccount\', \'UA-702647-10\']);
-  _gaq.push([\'_trackPageview\']);
-
-  (function() {
-    var ga = document.createElement(\'script\'); ga.type = \'text/javascript\'; ga.async = true;
-    ga.src = (\'https:\' == document.location.protocol ? \'https://ssl\' : \'http://www\') + \'.google-analytics.com/ga.js\';
-    var s = document.getElementsByTagName(\'script\')[0]; s.parentNode.insertBefore(ga, s);
-  })();
-
-</script>	
 </head>
 <body id="bin6">
 <div id="wrap">
