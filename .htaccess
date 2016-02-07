@@ -1,0 +1,6 @@
+RewriteEngine on
+
+RewriteRule ^(about|contact)$ index.php?act=$1 [L]
+RewriteRule ^([0-9a-zA-Z]+)$ index.php?act=view&id=$1 [L]
+RewriteRule ^p\/(.+)$ index.php?act=view&code=$1 [L]
+

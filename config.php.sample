@@ -1,0 +1,10 @@
+<?php
+
+defined ('in_bn6') or exit;
+
+$dbc = array(
+	'host' => 'localhost',
+	'user' => '',
+	'pass' => '',
+	'db' => ''
+);
