@@ -5,11 +5,12 @@ This is a really, really simple PHP pastebin app, which has powered ![Bin 6 It](
 ## Features
 
 - Private pastes
-- Paste pruning (1 year since last viewed)
 - Custom paste URLs
 - Syntax highlighting for hundreds of file types
 - Reply to pastes easily
-- Functionality to make it hard for spambots to post
+- Functionality to make it hard for spambots to post (Essentially CSRF and slight post obfuscation)
+- Functionality to make it impossible for this to hack your box (immune to file inclusion vulnerabilities and sql injection)
+- No special dependencies
 
 ## Requirements
 
